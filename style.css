@@ -1,0 +1,36 @@
+body
+{
+  position: absolute;
+  background:#444;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.cardCont
+{
+  width:250px;
+  height:400px;
+  background-color: blueviolet;
+  font-size: 0px;
+  float:left;
+  margin-right:10px;
+  margin-bottom : 30px;
+  
+
+}
+
+
+.cardBack
+  {
+    width:250px;
+    height:400px;
+    background-color: blue;
+    font-size: 50px;
+    float:left;
+    margin-right:10px;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+
+}
+
