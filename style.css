@@ -1,36 +1,101 @@
 body
 {
-  position: absolute;
-  background:#444;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: grey;
+  width : 100vw;
+  height : 100vh;
 
 }
+
+#title{
+  font-family: 'Indie Flower', cursive;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.row{
+  width: 100%;
+  height: 800px;
+  padding : 30px;
+  margin : auto;
+
+}
+
+
 .cardCont
 {
-  width:250px;
-  height:400px;
-  background-color: blueviolet;
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 20%;
+  background-color: gray;
   font-size: 0px;
-  float:left;
-  margin-right:10px;
-  margin-bottom : 30px;
-  
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6); 
+  box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6);
 }
+
+.cardCont:hover{
+  border: 2px solid white;
+  transition: all 200ms ease-in;
+}
+
 
 
 .cardBack
   {
-    width:250px;
-    height:400px;
+    position: relative;
+    margin: auto; 
+    padding: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 210px;
+    height: 210px;
+    border-radius: 20%;
     background-color: blue;
-    font-size: 50px;
-    float:left;
-    margin-right:10px;
-    position:relative;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    border: 2px solid white;
 
 }
 
+
+.cardSuccess{
+  position: relative;
+  margin: auto; 
+  padding: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 210px;
+  height: 210px;
+  border-radius: 20%;
+  background-color: green;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(11, 49, 1);
+}
+
+.button{
+  position: relative;
+  margin: auto; 
+  width : 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center
+}
