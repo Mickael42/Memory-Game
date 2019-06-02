@@ -1,9 +1,8 @@
 body
 {
-  background-color: grey;
-  width : 100vw;
-  height : 100vh;
 
+  background: rgb(19,19,19);
+  background: linear-gradient(176deg, rgba(19,19,19,1) 0%, rgba(204,200,197,1) 100%);  
 }
 
 #title{
@@ -14,88 +13,84 @@ body
   color: white;
 }
 
-.row{
-  width: 100%;
+ .row{
   height: 800px;
   padding : 30px;
   margin : auto;
+  justify-content: center;
 
-}
+} 
 
 
-.cardCont
-{
-  position: relative;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 210px;
-  height: 210px;
+.colCard{
+  height: 180px;
   border-radius: 20%;
-  background-color: gray;
+  margin-left : auto;
+  margin-right : 15px;
+  margin-bottom: 15px;
+  background-color: rgb(109, 105, 105);
   font-size: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   -webkit-box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6); 
   box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6);
+
 }
 
-.cardCont:hover{
+.colCard:hover{
   border: 2px solid white;
+  background-color: rgb(148, 145, 145);
   transition: all 200ms ease-in;
+  
 }
-
-
 
 .cardBack
   {
-    position: relative;
-    margin: auto; 
-    padding: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 210px;
-    height: 210px;
+    height: 180px;
     border-radius: 20%;
-    background-color: blue;
-    font-size: 40px;
+    margin-left : auto;
+    margin-right : 15px;
+    margin-bottom: 15px;
+    background-color: rgb(25, 118, 180);
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
+    -webkit-box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6); 
+    box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6);
 
 }
 
 
 .cardSuccess{
-  position: relative;
-  margin: auto; 
-  padding: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 210px;
-  height: 210px;
+  height: 180px;
   border-radius: 20%;
-  background-color: green;
-  font-size: 40px;
+  margin-left : auto;
+  margin-right : 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgb(11, 49, 1);
+  -webkit-box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6); 
+  box-shadow: 6px 4px 13px 1px rgba(0,0,0,0.6);
+  background-color: green;
+  border: 2px solid rgb(121, 228, 94);
 }
 
 .button{
-  position: relative;
+
   margin: auto; 
-  width : 500px;
+  margin-top : 20px;
+  width : 200px;
   align-items: center;
   justify-content: center;
   text-align: center
+}
+
+p{
+  font-size: 20px;
+  color: white;
 }
